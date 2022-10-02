@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin-left: 0;
+}
+.menu ul {
+    display: flex;
+    
+
+}
+.menu ul li{
+    width: 100px;
+    height: 30px;
+    background-color: aqua;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    list-style: none;
+    margin: 20px;
+    
+    text-align: center;
+}
+.menu ul li a{
+    text-decoration: none;
+}
+.describe{
+    margin-top: 30px;
+    display: flex;
+}
+.describe .pic-1{
+    width: 48%;
+    height: 300px;
+    margin-left: 20px;
+}
+.describe .pic-1 img{
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.describe .pic-1 .frame{
+    width: 250px;
+    height: 250px;
+    border: solid 2px black;
+    float: right;
+}
